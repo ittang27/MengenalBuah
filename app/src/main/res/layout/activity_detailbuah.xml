@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:padding="20dp"
+    android:layout_height="match_parent" android:background="#222">
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:background="@drawable/rounded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgGambar"
+            android:src="@drawable/jambuair"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtDetail"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/imgGambar"
+            android:text="Nama Buah"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</RelativeLayout>
